@@ -16,8 +16,8 @@ export default function MetricsChart({ data }) {
             {
                 label: 'CPU (%)',
                 data,
-                borderColor: 'blue',
-                backgroundColor: 'lightblue',
+                borderColor: 'red',
+                backgroundColor: 'red',
             },
         ],
     }

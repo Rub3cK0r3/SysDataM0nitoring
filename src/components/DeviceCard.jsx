@@ -9,7 +9,7 @@ export default function DeviceCard({ device }) {
 
     return (
         <div style={cardStyle}>
-            <h3>{device.name}</h3>
+            <h2>{device.name}</h2>
             <p>Status: {device.status}</p>
             <p>CPU: {device.cpu}%</p>
             <p>Memory: {device.memory}%</p>

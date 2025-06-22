@@ -9,7 +9,7 @@ export default function Dashboard() {
     useEffect(() => {
         const interval = setInterval(() => {
             setDevice(generateMockDevice())
-        }, 3000)
+        }, 4000)
         return () => clearInterval(interval)
     }, [])
 
